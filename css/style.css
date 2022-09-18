@@ -25,8 +25,8 @@
 .kleuren {
   background-color: orange; }
   .kleuren:hover {
-    background-color: blue !important; }
+    background-color: blue; }
   .kleuren.roze:hover {
-    background-color: pink !important; }
+    background-color: red; }
   .kleuren.groen:hover {
-    background-color: green !important; }
+    background-color: green; }

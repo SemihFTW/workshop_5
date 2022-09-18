@@ -26,18 +26,18 @@
 }
 
 .onzichtbaar{
-    background-color: #d9d9d9 !important;
+    background-color: #d9d9d9;
 }
 
 .kleuren{
     background-color: orange;
     &:hover{
-        background-color: blue !important;
+        background-color: blue;
     }
     &.roze:hover{
-        background-color: pink !important;
+        background-color: rgb(255, 0, 0);
     }
     &.groen:hover{
-        background-color: green !important;
+        background-color: green;
     }
 }
