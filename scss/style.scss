@@ -1,0 +1,43 @@
+#muur{
+    width: 500px;
+    height: 295px;
+    background-color: #d9d9d9;
+}
+
+.rij{
+    display:flex;
+}
+
+.steen {
+    background-color: orange;
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.geen_cement_rechts{
+    margin-right: 0px;
+}
+
+.smaller{
+    width: 80px;
+}
+
+.onzichtbaar{
+    background-color: #d9d9d9 !important;
+}
+
+.kleuren{
+    background-color: orange;
+    &:hover{
+        background-color: blue !important;
+    }
+    &.roze:hover{
+        background-color: pink !important;
+    }
+    &.groen:hover{
+        background-color: green !important;
+    }
+}
